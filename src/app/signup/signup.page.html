@@ -1,0 +1,31 @@
+
+
+<ion-content>
+  <div class="flex-center">
+<ion-card>
+  <ion-card-header>
+    <ion-card-title color="success">GeethIO-SignUp</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <!-- <ion-item>
+      <ion-input [(ngModel)]="username" label="Usename" labelPlacement="floating" placeholder="Enter Username"></ion-input>
+    </ion-item> -->
+    <ion-item>
+      <ion-input [(ngModel)]="email" label="Email" labelPlacement="floating" placeholder="Enter Username"></ion-input>
+    </ion-item>
+    <!-- <ion-item>
+      <ion-input [(ngModel)]="mobile" label="Mobile Number" labelPlacement="floating" placeholder="Enter Username"></ion-input>
+    </ion-item> -->
+    <ion-item>
+      <ion-input  [(ngModel)]="password" type="password" label="Password" labelPlacement="floating" placeholder="Enter Username"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input [(ngModel)]="confirmPassword" type="password" label="Confirm Password" labelPlacement="floating" placeholder="Enter Username"></ion-input>
+    </ion-item>
+    <ion-button color="primary" size="full" (click)="onSignup()">Signup</ion-button>
+  </ion-card-content>
+</ion-card>
+
+  </div>
+ 
+</ion-content>
