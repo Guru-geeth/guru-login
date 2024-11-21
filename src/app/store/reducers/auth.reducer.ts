@@ -18,9 +18,7 @@ export const authReducer = createReducer(
   on(AuthActions.signupUser, (state, action) => ({
     ...state,
     user: {
-      username: action.username,
       email: action.email,
-      mobile: action.mobile,
     },
   })),
   on(AuthActions.loginSuccess, (state, action) => ({
